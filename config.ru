@@ -2,6 +2,7 @@ require "sinatra"
 require "sinatra/contrib"
 require "sinatra/reloader" if development?
 require "pry"
+require_relative "seed.sql"
 require_relative "./models/post.rb"
 require_relative "./controllers/posts_controller.rb"
 
