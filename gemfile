@@ -4,4 +4,4 @@ gem "sinatra"
 gem "sinatra-contrib"
 gem "rack"
 gem "pry"
-gem "pg"
+gem "pg" # connection between app and DB
